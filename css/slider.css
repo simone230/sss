@@ -92,3 +92,50 @@ animation-fill-mode: forwards;
     display: block;
     padding-bottom: 10px;
 }
+
+   
+
+
+ul{
+    float:center;
+}
+.stileser{
+    background-color: orange;
+    width: 350px;
+    height: auto;
+
+    
+    
+}
+.nomeClasse{
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    }
+.nomeClasse img {
+    width: 100%;
+    display: block;
+    -moz-transition:800ms;
+    -webkit-transition: 800ms; 
+    -o-transition: 800ms; 
+    transition: 800ms;
+    }
+.nomeClasse figcaption {
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    padding: .5rem;
+    position: absolute;
+    -webkit-transition: 800ms; 
+    -o-transition: 800ms; 
+    transition: 800ms;
+    width: 100%;
+    cursor: pointer;
+    }
+.nomeClasse[data-effect="fade-in"] figcaption {
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0;
+    }
+    .nomeClasse[data-effect="fade-in"]:hover figcaption {opacity: 1;}
