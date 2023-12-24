@@ -37,7 +37,7 @@ html {
 }
 
 body {
-    color: #666666;
+    color: #000000;
     font-size: 14px;
     font-family: Poppins;
     line-height: 1.80857;
@@ -220,13 +220,14 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-color: #252525;
+    background-color:rgb(220, 233, 244);
     height: auto;
     background-size: 100%;
+    
 }
 
 .bg-light {
-    background-color: transparent !important;
+    background-color:rgb(220, 233, 244)!important;
 }
 
 .header_main {
@@ -256,7 +257,7 @@ button {
     padding-right: .5rem;
     padding-left: .5rem;
     font-size: 18px;
-    color: #fff;
+    color: #020202;
 }
 
 .logo {}
@@ -778,25 +779,27 @@ button {
 .footer_section {
     width: 100%;
     float: left;
-    background-color: #252525;
-    height: auto;
-    padding: 95px 0px;
+    background-color: rgb(220, 233, 244);
+   
+    padding: 45px ;
 }
 
 .useful_text {
     width: 100%;
     font-size: 24px;
-    color: #ffffff;
+    color: black;
     margin-bottom: 15px;
     font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .footer_text {
     width: 100%;
     float: left;
     font-size: 14px;
-    color: #ffffff;
+    color: black;
     margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .footer_menu {
@@ -811,11 +814,11 @@ button {
 
 .footer_menu li {
     font-size: 14px;
-    color: #ffffff;
+    color: black
 }
 
 .footer_menu li a {
-    color: #ffffff;
+    color: black;
 }
 
 .footer_menu li a:hover {
@@ -826,14 +829,18 @@ button {
     width: 30%;
     float: left;
     font-size: 14px;
-    color: #ffffff;
+    color: black
     margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 
 .location_text {
     width: 100%;
     float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 
 .location_text ul {
     margin: 0px;
@@ -842,12 +849,12 @@ button {
 
 .location_text li {
     font-size: 14px;
-    color: #ffffff;
+    color: black;
     padding: 0px 0px 5px 0px;
 }
 
 .location_text li a {
-    color: #ffffff;
+    color: black;
 }
 
 .location_text li a:hover {
